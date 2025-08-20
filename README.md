@@ -48,11 +48,18 @@ Batch decompile .pyc Python bytecode files to .py source code using PyLingual, w
   - Poetry（PyLingual 依赖它）
   - PyLingual（已作为 Poetry 项目脚本安装，即支持 `poetry run pylingual`）
 
-- 激活你的 Python 虚拟环境（`venv`）：
+  - 最好使用venv环境
 
   ```bash
+  git clone https://github.com/syssec-utd/pylingual
+  cd pylingual
+  python -m venv venv
   source venv/bin/activate
+  pip install "poetry>=2.0"
+  poetry install
   ```
+
+​	   
 
 ### 2. 🛠️ 配置脚本
 
