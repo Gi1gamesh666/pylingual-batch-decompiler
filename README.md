@@ -63,7 +63,7 @@ Batch decompile .pyc Python bytecode files to .py source code using PyLingual, w
 
 ### 2. 🛠️ 配置脚本
 
-打开脚本 `auto.sh`（或你命名的主脚本文件），设置以下两个变量：
+打开脚本 `auto-decompile.sh`（或你命名的主脚本文件），设置以下两个变量：
 
 ```bash
 INPUT_DIR="/path/to/your/pyc_files"       # 存放 .pyc 文件的目录
@@ -75,13 +75,13 @@ OUTPUT_DIR="/path/to/output/py_files"     # 反编译后 .py 文件的输出目�
 确保脚本有执行权限：
 
 ```bash
-chmod +x auto.sh
+chmod +x auto-decompile.sh
 ```
 
 然后运行：
 
 ```bash
-./auto.sh
+./auto-decompile.sh
 ```
 
 
